@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open Book Library Finder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar">
+        <div class="header">
+            <img src="./images/Open Book Library Finder Logo.jpg" alt="Logo" class="logo">
+            <div class="hh">
+                <h1>Open Book Library Finder</h1>
+                <h4 class="sub-header">Discover detailed information about your favorite books quickly and easily.</h4>
+            </div>
+            <button id="theme">🌙</button>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <!-- Search Box -->
+        <div class="search-box">
+            <form id="search-form">
+                <label for="search-item" id="label">What Book Are You Searching For?</label>
+                <input type="text" id="search-item" name="query" placeholder="Search Book Name...">
+                <button type="submit" id="Search-btn">Search</button>
+            </form>
+        </div>
+
+        <!-- Loading Message -->
+        <div id="loading-message" style="display: none;">Loading...</div>
+
+        <!-- Book Details -->
+        <div class="container2">
+            <img src="" alt="Book Cover" id="cover-image">
+            <div class="listContainer">
+                <div id="title" class="detail-item"></div>
+                <div id="author" class="detail-item"></div>
+                <div id="published-date" class="detail-item"></div>
+                <div id="first-publish-year" class="detail-item"></div>
+                <div id="pages" class="detail-item"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+<!-- Happy Coding -->

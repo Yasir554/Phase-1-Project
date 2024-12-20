@@ -1,0 +1,164 @@
+/* General Styling */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styling */
+body {
+    background-color: #f3edd7;
+    font-family: Arial, sans-serif;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #f3edd7;
+    padding: 10px 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    height: 50px;
+    
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    text-align: center;
+    
+}
+
+#theme {
+    background: black;
+    color: wheat;
+    height: fit-content;
+    padding: 0.5em 0.5em;
+    border-radius: 1em;
+    margin-top: 1em;
+    
+}
+
+/* Search Box Styling */
+.search-box {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#label {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#search-item {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+#Search-btn {
+    padding: 10px 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+}
+
+#loading-message {
+    font-size: 1.5rem;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    display: none; /* Hidden by default */
+}
+
+
+/* Book Details and Cover Styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.container2 {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+
+
+}
+.listContainer {
+    display: block;
+    text-align: left;
+    background-color: #615E56;
+    margin: 2em;
+    max-width: 200px;
+    padding: 1em;
+}
+
+#cover-image {
+    max-width: 200px;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.detail-item {
+    margin: 5px 0;
+    font-size: 1.1rem;
+}
+
+
+
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode .navbar {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode #search-item {
+    background-color: #444;
+    color: white;
+    border: 1px solid #555;
+}
+
+.dark-mode #Search-btn {
+    background-color: white;
+    color: black;
+}
+
+.dark-mode #theme {
+    background: white;
+    height: fit-content;
+    padding: 0.5em 0.5em;
+    border-radius: 1em;
+    margin-top: 1em;
+    
+}
+
+.dark-mode #loading-message {
+    font-size: 1.5rem;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    display: none; /* Hidden by default */
+}
+
+/* Happy Coding */
